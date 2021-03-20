@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Image } from 'react-native'
 import styles from './styles';
 
-import imgLoading from '../../assets/images/loading.gif'
+import imgLoading from '../../assets/images/loading-2.gif'
 
 function Loading() {
   return (

@@ -12,18 +12,33 @@ const styles = StyleSheet.create({
 
   contentItems: {
     flex: 1,
-    justifyContent: 'space-evenly',
-    alignItems: 'center'
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '6%'
   },
 
   button: {
-    width: '70%',
+    width: '46%',
     height: '28%',
-    maxHeight: 180,
+    maxHeight: 200,
     backgroundColor: 'rgba(0,0,0,.7)',
     borderRadius: 10,
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    marginBottom: 25
+  },
+
+  buttonFull: {
+    width: '100%',
+    height: '28%',
+    maxHeight: 200,
+    backgroundColor: 'rgba(0,0,0,.7)',
+    borderRadius: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 30
   },
 
   text: {

@@ -7,6 +7,7 @@ import Bg from '../../assets/images/bg.jpg'
 import Homem from '../../assets/icons/homem-white.png';
 import Virus from '../../assets/icons/virus-white.png';
 import Vacina from '../../assets/icons/vacina-white.png';
+import Contact from '../../assets/icons/contact.png';
 
 import styles from './styles';
 import Header from '../../components/Header';
@@ -24,6 +25,10 @@ function Landing() {
 
   function handleNavigationToProtectPage() {
     navigate('ProtectInfo')
+  }
+
+  function handleNavigationToContactsPage() {
+    navigate('Contacts')
   }
 
   return (
@@ -48,9 +53,14 @@ function Landing() {
             <Text style={styles.text}>Vacina</Text>
           </RectButton>
 
-          <RectButton onPress={handleNavigationToProtectPage} style={styles.button}>
+          <RectButton onPress={handleNavigationToProtectPage} style={styles.buttonFull}>
             <Image source={Homem} />
             <Text style={styles.text}>Proteja-se</Text>
+          </RectButton>
+
+          <RectButton onPress={handleNavigationToContactsPage} style={styles.buttonFull}>
+            <Image source={Contact} />
+            <Text style={styles.text}>Contatos de apoio</Text>
           </RectButton>
         </View>
         
