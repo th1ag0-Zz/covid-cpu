@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { View, Text, Image } from 'react-native'
+import React from 'react';
+import { View, Text } from 'react-native'
 import styles from './styles';
 import ContactBox from '../../components/ContactBox';
 

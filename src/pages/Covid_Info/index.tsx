@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text } from 'react-native'
+import { View, Text, ImageBackground } from 'react-native'
 import Loading from '../../components/Loading';
 import api from '../../services/api';
 import styles from './style';
+
+import Bg from '../../assets/images/bg-1.png'
 
 function CovidInfo() {
 
@@ -53,9 +55,11 @@ function CovidInfo() {
     <>
     {isLoaded ? (
 
-      <View style={styles.container}>
-        <Text style={styles.atualizacao}>Útima atualização: {data} às {hora} horas </Text>
-
+      <ImageBackground
+        resizeMode="cover"
+        source={Bg}
+        style={styles.container}
+      >
         <View style={styles.boxSuspeitos}>
           <Text style={styles.title}>Suspeitos</Text>
           <Text style={styles.valor}>{suspeitos}</Text>
@@ -86,9 +90,15 @@ function CovidInfo() {
           <Text style={styles.valor}>{obitos}</Text>
         </View>
 
-        <Text>Fonte: Prefeitura de Cururupu - MA</Text>
+        <View style={styles.footer}>
+
+        <Text style={styles.atualizacao}>Útima atualização: {data} às {hora} horas </Text>
+
+        <Text style={styles.fonte}>Fonte: https://portal.cururupu.ma.gov.br/</Text>
+
+        </View>
         
-      </View>
+      </ImageBackground>
     ) : (
       <Loading />
     )}

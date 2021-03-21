@@ -3,7 +3,7 @@ import { View, Text, Image, ImageBackground } from 'react-native'
 import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation } from '@react-navigation/native';
 
-import Bg from '../../assets/images/bg.jpg'
+import Bg from '../../assets/images/bg.jpeg'
 import Homem from '../../assets/icons/homem-white.png';
 import Virus from '../../assets/icons/virus-white.png';
 import Vacina from '../../assets/icons/vacina-white.png';

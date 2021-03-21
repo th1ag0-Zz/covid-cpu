@@ -2,15 +2,22 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#fff',
+    paddingTop: 60,
+    paddingBottom: 20,
     flex: 1,
-    justifyContent: 'space-evenly',
+    justifyContent: 'center',
     alignItems: 'center'
   },
 
   atualizacao: {
     fontSize: 15,
-    marginTop: 12
+    color: '#fff',
+    fontWeight: 'bold',
+    marginBottom: 20
+  },
+
+  fonte: {
+    color: '#fff'
   },
 
   boxSuspeitos: {
@@ -18,12 +25,13 @@ const styles = StyleSheet.create({
     height: '8%',
     maxHeight: 70,
     borderRadius: 10,
-    backgroundColor: '#ffbc34',
+    backgroundColor: 'rgba(1,1,1,0.7)',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingLeft: 40,
-    paddingRight: 40
+    paddingRight: 40,
+    marginBottom: 30
   },
 
   boxAtivos: {
@@ -36,7 +44,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     paddingLeft: 40,
     paddingRight: 40,
-    backgroundColor: '#2962FF'
+    backgroundColor: 'rgba(1,1,1,0.7)',
+    marginBottom: 30
   },
 
   boxRecuperados: {
@@ -44,12 +53,13 @@ const styles = StyleSheet.create({
     height: '8%',
     maxHeight: 70,
     borderRadius: 10,
-    backgroundColor: '#7460ee',
+    backgroundColor: 'rgba(1,1,1,0.7)',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingLeft: 40,
-    paddingRight: 40
+    paddingRight: 40,
+    marginBottom: 30
   },
   
 
@@ -58,12 +68,13 @@ const styles = StyleSheet.create({
     height: '8%',
     maxHeight: 70,
     borderRadius: 10,
-    backgroundColor: '#f62d51',
+    backgroundColor: 'rgba(1,1,1,0.7)',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingLeft: 40,
-    paddingRight: 40
+    paddingRight: 40,
+    marginBottom: 30
   },
 
   boxDescartados: {
@@ -71,12 +82,13 @@ const styles = StyleSheet.create({
     height: '8%',
     maxHeight: 70,
     borderRadius: 10,
-    backgroundColor: '#36bea6',
+    backgroundColor: 'rgba(1,1,1,0.7)',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingLeft: 40,
-    paddingRight: 40
+    paddingRight: 40,
+    marginBottom: 30
   },
 
   boxObitos: {
@@ -84,12 +96,13 @@ const styles = StyleSheet.create({
     height: '8%',
     maxHeight: 70,
     borderRadius: 10,
-    backgroundColor: '#343a40',
+    backgroundColor: 'rgba(1,1,1,0.7)',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingLeft: 40,
-    paddingRight: 40
+    paddingRight: 40,
+    marginBottom: 30
   },
 
   title: {
@@ -102,7 +115,12 @@ const styles = StyleSheet.create({
   valor: {
     color: '#fff',
     fontSize: 22,
-    fontWeight: '700'
+    fontWeight: '700',
+  },
+
+  footer: {
+    alignItems: 'center',
+    marginTop: 10
   }
 })
 

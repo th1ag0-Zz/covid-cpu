@@ -2,6 +2,7 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
+    paddingTop: 50,
     backgroundColor: '#fff',
     flex: 1,
     flexDirection: 'row',
@@ -18,7 +19,8 @@ const styles = StyleSheet.create({
 
   atualizacao: {
     fontSize: 15,
-    marginTop: 12
+    marginTop: 40,
+    color: '#fff'
   },
 
   title: {
@@ -38,7 +40,7 @@ const styles = StyleSheet.create({
     height: '12%',
     maxHeight: 70,
     borderRadius: 10,
-    backgroundColor: '#7460ee',
+    backgroundColor: 'rgba(1,1,1,0.7)',
     alignItems: 'center',
     justifyContent: 'space-evenly',
     marginBottom: 20
@@ -49,7 +51,7 @@ const styles = StyleSheet.create({
     height: '10%',
     maxHeight: 70,
     borderRadius: 10,
-    backgroundColor: '#36bea6',
+    backgroundColor: 'rgba(1,1,1,0.7)',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -65,7 +67,13 @@ const styles = StyleSheet.create({
   },
 
   separatorText: {
-    fontSize: 20
+    fontSize: 22,
+    color: '#000',
+    fontWeight: 'bold'
+  },
+
+  fonte: {
+    color: '#fff'
   }
   
 })
