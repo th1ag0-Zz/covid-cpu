@@ -1,26 +1,21 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  container: {
-    paddingTop: 50,
-    backgroundColor: '#fff',
+  bg: {
     flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    paddingLeft: '6%',
+    paddingRight: '6%',
+    paddingTop: '8%'
+  },
+
+  container: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: '6%',
-  },
-
-  att: {
-    fontSize: 15,
-    marginTop: 42
-  },
-
-  atualizacao: {
-    fontSize: 15,
-    marginTop: 40,
-    color: '#fff'
+    flex: 1
   },
 
   title: {
@@ -48,7 +43,7 @@ const styles = StyleSheet.create({
 
   boxFull: {
     width: '100%',
-    height: '10%',
+    height: '9%',
     maxHeight: 70,
     borderRadius: 10,
     backgroundColor: 'rgba(1,1,1,0.7)',
@@ -62,7 +57,7 @@ const styles = StyleSheet.create({
 
   separator: {
     width: '100%',
-    paddingTop: 35,
+    paddingTop: 28,
     paddingBottom: 8
   },
 
@@ -70,6 +65,12 @@ const styles = StyleSheet.create({
     fontSize: 22,
     color: '#000',
     fontWeight: 'bold'
+  },
+
+  atualizacao: {
+    fontSize: 15,
+    marginTop: 25,
+    color: '#fff'
   },
 
   fonte: {

@@ -60,42 +60,39 @@ function CovidInfo() {
         source={Bg}
         style={styles.container}
       >
-        <View style={styles.boxSuspeitos}>
+        <View style={styles.box}>
           <Text style={styles.title}>Suspeitos</Text>
           <Text style={styles.valor}>{suspeitos}</Text>
         </View>
 
-        <View style={styles.boxConfirmados}>
+        <View style={styles.box}>
           <Text style={styles.title}>Confirmados</Text>
           <Text style={styles.valor}>{confirmados}</Text>
         </View>
 
-        <View style={styles.boxAtivos}>
+        <View style={styles.box}>
           <Text style={styles.title}>Ativos</Text>
           <Text style={styles.valor}>{ativos}</Text>
         </View>
 
-        <View style={styles.boxRecuperados}>
+        <View style={styles.box}>
           <Text style={styles.title}>Recuperados</Text>
           <Text style={styles.valor}>{recuperados}</Text>
         </View>
 
-        <View style={styles.boxDescartados}>
+        <View style={styles.box}>
           <Text style={styles.title}>Descartados</Text>
           <Text style={styles.valor}>{descartados}</Text>
         </View>
 
-        <View style={styles.boxObitos}>
+        <View style={styles.box}>
           <Text style={styles.title}>Óbitos</Text>
           <Text style={styles.valor}>{obitos}</Text>
         </View>
 
         <View style={styles.footer}>
-
-        <Text style={styles.atualizacao}>Útima atualização: {data} às {hora} horas </Text>
-
-        <Text style={styles.fonte}>Fonte: https://portal.cururupu.ma.gov.br/</Text>
-
+          <Text style={styles.atualizacao}>Útima atualização: {data} às {hora} horas </Text>
+          <Text style={styles.fonte}>Fonte: https://portal.cururupu.ma.gov.br/</Text>
         </View>
         
       </ImageBackground>

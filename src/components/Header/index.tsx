@@ -1,7 +1,5 @@
 import React from 'react'
-import { View, Text, Image } from 'react-native'
-import { RectButton } from 'react-native-gesture-handler';
-
+import { View, Text } from 'react-native'
 
 import styles from './styles'
 
@@ -9,11 +7,11 @@ interface Props {
   title: string
 }
 
-const Header: React.FC = () => {
+const Header: React.FC<Props> = ({ title }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Dados Covid-19 (Cururupu)</Text>
+      <Text style={styles.title}>{title}</Text>
     </View>
   )
 }

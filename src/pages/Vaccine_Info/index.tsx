@@ -70,8 +70,10 @@ function CovidInfo() {
         <ImageBackground
           resizeMode="cover"
           source={Bg}
-          style={styles.container}
+          style={styles.bg}
         >
+
+          <View style={styles.container}>
 
           <View style={styles.boxSimple}>
             <Text style={styles.title}>Recebidas</Text>
@@ -120,6 +122,8 @@ function CovidInfo() {
           <Text style={styles.atualizacao}>Útima atualização: {data} às {hora} horas </Text>
 
           <Text style={styles.fonte}>Fonte: https://portal.cururupu.ma.gov.br/</Text>
+
+          </View>
 
         </ImageBackground>
 

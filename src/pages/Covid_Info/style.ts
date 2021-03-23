@@ -20,78 +20,7 @@ const styles = StyleSheet.create({
     color: '#fff'
   },
 
-  boxSuspeitos: {
-    width: '80%',
-    height: '8%',
-    maxHeight: 70,
-    borderRadius: 10,
-    backgroundColor: 'rgba(1,1,1,0.7)',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingLeft: 40,
-    paddingRight: 40,
-    marginBottom: 30
-  },
-
-  boxAtivos: {
-    width: '80%',
-    height: '8%',
-    maxHeight: 70,
-    borderRadius: 10,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingLeft: 40,
-    paddingRight: 40,
-    backgroundColor: 'rgba(1,1,1,0.7)',
-    marginBottom: 30
-  },
-
-  boxRecuperados: {
-    width: '80%',
-    height: '8%',
-    maxHeight: 70,
-    borderRadius: 10,
-    backgroundColor: 'rgba(1,1,1,0.7)',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingLeft: 40,
-    paddingRight: 40,
-    marginBottom: 30
-  },
-  
-
-  boxConfirmados: {
-    width: '80%',
-    height: '8%',
-    maxHeight: 70,
-    borderRadius: 10,
-    backgroundColor: 'rgba(1,1,1,0.7)',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingLeft: 40,
-    paddingRight: 40,
-    marginBottom: 30
-  },
-
-  boxDescartados: {
-    width: '80%',
-    height: '8%',
-    maxHeight: 70,
-    borderRadius: 10,
-    backgroundColor: 'rgba(1,1,1,0.7)',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingLeft: 40,
-    paddingRight: 40,
-    marginBottom: 30
-  },
-
-  boxObitos: {
+  box: {
     width: '80%',
     height: '8%',
     maxHeight: 70,

@@ -39,7 +39,7 @@ function Landing() {
         style={styles.content}
       >
 
-        <Header />
+        <Header title="Dados Covid-19 (Cururupu)" />
 
         <View style={styles.contentItems}>
 
